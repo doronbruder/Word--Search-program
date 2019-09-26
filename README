@@ -1,0 +1,46 @@
+doronbruder
+
+204917629
+
+Doron Bruder
+
+ Websites:"stackoverflow
+"
+No special comments
+
+Explanation for the sub functions:
+The  division into different functions in the "finds words in matrix":
+My idea was to split it into two main functions :
+The first "search current direction" will be
+ responsible for go over  each direction 
+That was chosen by the user   together 
+ with every possible point in the matrix
+And call the next function " search from some
+ point " that for each direction and each
+ point is  checks all possible words in the chosen direction 
+that start at the current point or after the 
+current point but in the same direction- when the 
+limit is the length and width of the matrix
+ for each possible word in a chosen direction
+ it checks if the word is in the list 
+If it is is updated a dictionary I built
+ that Link found words and their count
+
+The function I decided to check:
+‪"‬update_coordinates"
+This function is reponssible for
+ changing the coordinates according the chosen
+ direction
+for example 'u'=up=(-1,0) so x should updates with -1 and y should not change
+The checks I made to test that function are :
+1.checks all the ordinary cases where the 
+direction is valid - make sure the coordinates updated properly
+2‪. checks an extreme case that the direction
+ is invalid and makes sure it doesnt change the coordination in that case‬
+
+  
+
+
+
+
+ 
